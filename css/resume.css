@@ -1,0 +1,87 @@
+body{
+  background-color:white;
+}
+.navbar-custom {
+    background-color: #e9e8e6;
+    padding: 12px;
+  }
+  .navbar-brand h1 {
+    margin: 0;
+    font-size:xx-large;
+    margin:9px 1px ;
+  }
+  .navbar-nav {
+    margin: 0 auto; /* Centers the nav links */
+  }
+  .section-title h2 {
+    /* font-size: 32px; */
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.resume h2{
+  text-decoration: underline aqua;
+}
+ 
+.navbar-nav{
+  padding: 12px;
+  gap: 30px;
+} 
+.image{
+  background-image: url(../image/kelly.jpg);
+  height: 93vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}   
+
+.navbar-custom {
+   background-color: #e9e8e6;
+   padding: 12px;
+}
+.navbar-brand h1 {
+  margin: 0;
+  font-weight: 100px;
+}
+.navbar-nav {
+  margin: 0 auto; /* Centers the nav links */
+}  
+.resume{
+  margin-top: 50px;
+}
+.timeline {
+  position: relative;
+  width: 10px;
+  background-color: teal;
+  height: 100vh;
+  margin: 0 auto;
+}
+footer{
+  text-align: center;
+  background-color:#e9e8e6;
+} 
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 4px solid teal;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.circle:nth-child(1) {
+  top: 10%;
+}
+
+.circle:nth-child(2) {
+  top: 50%;
+}
+
+.circle:nth-child(3) {
+  bottom: 10%;
+}
+
+ 
